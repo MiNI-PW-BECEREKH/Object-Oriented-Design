@@ -5,3 +5,10 @@ C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\TheAbstractFactoryPattern
 C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\TheAbstractFactoryPattern\TheAbstractFactoryPattern\bin\Debug\TheAbstractFactoryPattern.pdb
 C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\TheAbstractFactoryPattern\TheAbstractFactoryPattern\obj\Debug\TheAbstractFactoryPattern.exe
 C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\TheAbstractFactoryPattern\TheAbstractFactoryPattern\obj\Debug\TheAbstractFactoryPattern.pdb
+C:\Users\suhey\Desktop\Object-Oriented-Design\Abstract-Factory-Pattern\TheAbstractFactoryPattern\bin\Debug\TheAbstractFactoryPattern.exe.config
+C:\Users\suhey\Desktop\Object-Oriented-Design\Abstract-Factory-Pattern\TheAbstractFactoryPattern\bin\Debug\TheAbstractFactoryPattern.exe
+C:\Users\suhey\Desktop\Object-Oriented-Design\Abstract-Factory-Pattern\TheAbstractFactoryPattern\bin\Debug\TheAbstractFactoryPattern.pdb
+C:\Users\suhey\Desktop\Object-Oriented-Design\Abstract-Factory-Pattern\TheAbstractFactoryPattern\obj\Debug\TheAbstractFactoryPattern.csprojAssemblyReference.cache
+C:\Users\suhey\Desktop\Object-Oriented-Design\Abstract-Factory-Pattern\TheAbstractFactoryPattern\obj\Debug\TheAbstractFactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\suhey\Desktop\Object-Oriented-Design\Abstract-Factory-Pattern\TheAbstractFactoryPattern\obj\Debug\TheAbstractFactoryPattern.exe
+C:\Users\suhey\Desktop\Object-Oriented-Design\Abstract-Factory-Pattern\TheAbstractFactoryPattern\obj\Debug\TheAbstractFactoryPattern.pdb
