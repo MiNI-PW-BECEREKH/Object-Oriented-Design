@@ -1,0 +1,7 @@
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\theVisitorPattern\theVisitorPattern\bin\Debug\theVisitorPattern.exe.config
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\theVisitorPattern\theVisitorPattern\bin\Debug\theVisitorPattern.exe
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\theVisitorPattern\theVisitorPattern\bin\Debug\theVisitorPattern.pdb
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\theVisitorPattern\theVisitorPattern\obj\Debug\theVisitorPattern.csprojAssemblyReference.cache
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\theVisitorPattern\theVisitorPattern\obj\Debug\theVisitorPattern.csproj.CoreCompileInputs.cache
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\theVisitorPattern\theVisitorPattern\obj\Debug\theVisitorPattern.exe
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\theVisitorPattern\theVisitorPattern\obj\Debug\theVisitorPattern.pdb
