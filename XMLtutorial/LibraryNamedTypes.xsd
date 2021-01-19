@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://example.org/jk/library"
+    elementFormDefault="qualified"
+    xmlns:lib="http://example.org/jk/library"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="library" type="lib:library"></xs:element>
+
+  <!--library definition-->
+  <xs:complexType name="library">
+    <xs:sequence>
+      <xs:element name="book"  minOccurs="0" maxOccurs="unbounded" type="lib:bookinfo"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--bookinfo type definition-->
+  <xs:complexType name="bookinfo">
+    <xs:sequence>
+      <xs:element name="author" minOccurs="1" maxOccurs="unbounded" type="lib:authorinfo"/>
+    </xs:sequence>
+    <xs:attribute name="title" type="xs:string" use="required" />
+    <xs:attribute name="year" type="xs:gYear" use="required"/>
+    <xs:attribute name="language" type="lib:languageinfo" use="required"/>
+  </xs:complexType>
+
+  <!--authorinfo type definition-->
+  <xs:complexType name="authorinfo">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="surname" type="xs:string" use="required"/>
+  </xs:complexType>
+  
+  <!--languageinfo type definition-->
+  <xs:simpleType name="languageinfo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PL"/>
+      <xs:enumeration value="EN"/>
+      <xs:enumeration value="RU"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+</xs:schema>

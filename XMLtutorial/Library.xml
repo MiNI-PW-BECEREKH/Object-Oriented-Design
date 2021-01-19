@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<library xmlns="http://example.org/jk/library">
+  <book title="Metro 2033" year="2002" language="RU">
+    <author authorref="dmy"/>
+  </book>
+
+  <!--<book title="Harry Potter and the Chamber of Secrets" year="1998" language="EN">
+    <author surname="Rowling">
+      <name>Joanne</name>
+      <name>Kathleen</name>
+    </author>
+  </book>
+
+  <book title="Harry Potter and the Philosopher's stone" language="EN" year="1997">
+    <author surname="Rowling">
+      <name>Joanne</name>
+      <name>Kathleen</name>
+    </author>
+  </book>
+
+  <book title="Les Misérables" year="1998" language="EN">
+    <author surname="Hugo">
+      <name>Victor</name>
+    </author>
+  </book>
+
+  <book title="Wiedźmin Ostatnie życzenie" year="1993" language="PL">
+    <author surname="Sapkowski">
+      <name>Andrzej</name>
+    </author>
+  </book>
+
+  <book title="Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch" year="1990" language="EN">
+    <author surname="Pratchett">
+      <name>Terry</name>
+    </author>
+    <author surname="Gaiman">
+      <name>Neil</name>
+    </author>
+  </book>
+
+  <book title="The Martian" year="2011" language="EN">
+  </book>-->
+  
+  <!--author key and ids-->
+  <author authorid="dmy" surname="Glukhovsky">
+    <name>Dmitry</name>
+  </author>
+
+
+</library>

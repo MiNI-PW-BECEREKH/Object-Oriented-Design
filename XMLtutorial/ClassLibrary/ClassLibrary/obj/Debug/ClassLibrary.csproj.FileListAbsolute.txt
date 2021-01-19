@@ -1,0 +1,6 @@
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\XMLtutorial\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\XMLtutorial\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\XMLtutorial\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\XMLtutorial\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\XMLtutorial\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\suhey\OneDrive\Masaüstü\semester4_repos\OOD\XMLtutorial\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.pdb

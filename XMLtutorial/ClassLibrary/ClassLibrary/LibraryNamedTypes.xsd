@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://example.org/jk/library"
+    elementFormDefault="qualified"
+    xmlns:lib="http://example.org/jk/library"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  
+  <!--below is what I tried to do. Above xsd is written taking example as reference-->
+  <xs:element name="library" >
+    <xs:complexType>
+    <xs:sequence>
+      <xs:element name="book"   maxOccurs="unbounded" type="lib:bookinfo"/>
+      <xs:element name="author" type="lib:authorinfo" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+    
+    <xs:key name="authorKey">
+      <xs:selector xpath="lib:author"/>
+      <xs:field xpath="@authorid"/>
+    </xs:key>
+
+    <xs:keyref name="authorRef" refer="lib:authorKey">
+      <xs:selector xpath="lib:book/lib:author"/>
+      <xs:field xpath="@authorref"/>
+    </xs:keyref>
+  </xs:element>
+
+  
+  
+  
+  <!--key reference for author-->
+  
+
+  <!--bookinfo type definition-->
+  <xs:complexType name="bookinfo">
+      <xs:sequence>
+        <xs:element name="author" minOccurs="1" maxOccurs="unbounded" type="lib:authorref"/>
+      </xs:sequence>
+    
+    <xs:attribute name="title"  use="required" >
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:minLength value="3"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    
+    <xs:attribute name="year" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:integer">
+          <xs:minInclusive value="1120"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    
+    <xs:attribute name="language" type="lib:languageinfo" use="required"/>
+  </xs:complexType>
+
+  <!--authorinfo type definition-->
+  <xs:complexType name="authorinfo">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="surname" type="xs:string"/>
+    <xs:attribute name="authorid" type="xs:string" use="required"/>
+    
+  </xs:complexType>
+  
+  <!--languageinfo type definition-->
+  <xs:simpleType name="languageinfo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PL"/>
+      <xs:enumeration value="EN"/>
+      <xs:enumeration value="RU"/>
+      <xs:enumeration value="TLH"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="authorref">
+    <xs:attribute name="authorref" type="xs:string" use="required"/>
+  </xs:complexType>  
+</xs:schema>
